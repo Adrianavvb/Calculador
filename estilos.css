@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(5, 5, 29, 0.842);
+  border-radius: 2em;
+  box-shadow: 1em 1em 1rem rgba(7, 7, 8, 0.842);
+  padding: 20px;
+}
+
+input {
+  margin-bottom: 5%;
+  margin-top: 12%;
+  width: 19em;
+  height: 4rem;
+  border-radius: 1em;
+  background-color: rgb(189, 219, 129);
+}
+#teclado {
+  display: grid;
+  height: 17em;
+  width: 17em;
+  grid-template-columns: repeat(4, 1fr);
+}
+button {
+  margin: 7%;
+  border-radius: 1em;
+  font-size: 2em;
+  background-color: rgba(99, 99, 134, 0.842);
+}
+.color {
+  background-color: rgb(155, 172, 172);
+}
+button:hover {
+  background-color: rgb(131, 105, 105);
+}
+
+input:hover {
+  background-color: bisque;
+}
